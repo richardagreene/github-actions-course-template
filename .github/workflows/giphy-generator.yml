@@ -1,0 +1,14 @@
+name: GIPHY generator
+
+on:
+   issues:
+      types: [opened, edited]
+   pull_request:
+      types: [opened, edited]
+   issues_comment:
+      types: [opened, edited]
+      
+jobs:
+  giphy-generator
+  
+   
